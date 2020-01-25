@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Why I decided to start writing this blog","path":"/blog-goals","date":"2019-01-01"}}}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
