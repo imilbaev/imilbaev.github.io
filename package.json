@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "imilbaev.github.io",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal blog build with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ramis Imilbaev",
   "dependencies": {
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
@@ -11,7 +11,9 @@
     "gatsby-plugin-offline": "^3.0.27",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sharp": "^2.3.5",
-    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-remark-images": "^3.1.42",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-remark": "^2.6.48",
     "gatsby-transformer-sharp": "^2.3.7",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -38,9 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/imilbaev/imilbaev.github.io"
   }
 }
