@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => {
 	return (
 		<Layout>
 			<h1>Imilbaev Ramis</h1>
-			<p>Hello there. Welcome on my personal website. Here you will find all information about me and my interests. </p>
+			<p>Hello there, my name is Ramis. I'm a software developer. </p>
       
       {edges.map(edge => {
 				const { frontmatter: post } = edge.node;
