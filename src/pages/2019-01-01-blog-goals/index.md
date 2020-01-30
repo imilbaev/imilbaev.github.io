@@ -17,3 +17,5 @@ According to research [research](https://www.medicaldaily.com/why-using-pen-and-
 ### 2. Learn how to express my thoughts in English.
 
 To date, I well understand English: whatch TV series and movies, read books and articles in English. However, sometimes I can't string two sentences together. Thus, this blog is an attempt to get out of my comfort zone.
+
+![Hopper The Rabbit](./funny-cat.jpg)
