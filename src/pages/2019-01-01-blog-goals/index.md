@@ -20,8 +20,6 @@ Sometimes, there is specific knowledge that you want to share with others and sa
 
 For now, I understand English well. I have no problem whatching TV series and movies, reading books and articles in English. However, sometimes I can't string two sentences together. Thus, this blog is an attempt to get out of my comfort zone.
 
-### 3. Place for
+### 3. One place for contact information
 
 It is very handy when there is a place where you can send someone who wants to know something about you. Profile links, work, some stuff, faq and so on.
-
-![Hopper The Rabbit](./funny-cat.jpg)
