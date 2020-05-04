@@ -1,30 +1,30 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link } from "gatsby";
+import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
-import { Navigation } from "./navigation";
+import { Navigation } from "./navigation"
 
 const Header = ({ siteTitle }) => {
-	return (
-		<header>
-			<div className="container">
-				<div>
-					<Link to="/">
-						<h1 id="logo">{siteTitle}</h1>
-					</Link>
-					<Navigation />
-				</div>
-			</div>
-		</header>
-	);
-};
+  return (
+    <header>
+      <div className="container">
+        <div>
+          <Link to="/">
+            <h1 id="logo">{siteTitle}</h1>
+          </Link>
+          <Navigation />
+        </div>
+      </div>
+    </header>
+  )
+}
 
 Header.propTypes = {
-	siteTitle: PropTypes.string
-};
+  siteTitle: PropTypes.string,
+}
 
 Header.defaultProps = {
-	siteTitle: ``
-};
+  siteTitle: ``,
+}
 
-export default Header;
+export default React.memo(Header)
