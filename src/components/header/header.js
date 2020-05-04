@@ -2,18 +2,25 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+import LogoImg from "../../images/logo.png"
 import { Navigation } from "./navigation"
 
-const Header = ({ siteTitle }) => {
+const Header = ({ author, description }) => {
   return (
     <header>
-      <div className="container">
-        <div>
+      <div className="header__inner">
+        <div className="header__logo">
           <Link to="/">
-            <h1 id="logo">{siteTitle}</h1>
+            <img src={LogoImg} alt="Logo" />
           </Link>
-          <Navigation />
+          <div>
+            <Link to="/" className="_name">
+              {author}
+            </Link>
+            <div className="_description">{description}</div>
+          </div>
         </div>
+        <Navigation />
       </div>
     </header>
   )

@@ -16,20 +16,21 @@ const Layout = ({ children }) => (
           siteMetadata {
             title
             author
+            description
           }
         }
       }
     `}
     render={({
       site: {
-        siteMetadata: { title },
+        siteMetadata: { title, author, description },
       },
     }) => (
       <>
         <Helmet>
           <title>{title}</title>
         </Helmet>
-        <Header siteTitle={title} />
+        <Header author={author} description={description} />
         <main>
           <div className="container">
             <div className="row">
