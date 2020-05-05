@@ -1,14 +1,19 @@
 html,
 body {
-  color: #333333;
+  color: #222831;
   font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
   font-size: 18px;
 }
 
 body {
   padding: 24px 24px 32px;
-  border-top: 6px solid #333;
-  background: #f5f5f5;
+  border-top: 6px solid #222831;
+  background: #eeeeee;
+}
+
+main {
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -28,28 +33,6 @@ h5 {
 }
 h6 {
   font-size: 1.5rem;
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 2.6rem;
-  }
-  h3 {
-    font-size: 2.4rem;
-  }
-  h4 {
-    font-size: 2rem;
-  }
-  h5 {
-    font-size: 1.6rem;
-  }
-  h6 {
-    font-size: 1.3rem;
-  }
 }
 
 pre,
@@ -73,17 +56,13 @@ h6 {
   margin-bottom: 1rem;
 }
 
-#logo {
-  float: left;
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  height: 100px;
-  padding-left: 100px;
-  vertical-align: middle;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0;
-  line-height: 1;
+a {
+  color: #008288;
+}
+
+a.active,
+a:hover {
+  color: #00adb5;
 }
 
 header {
@@ -116,18 +95,18 @@ header {
 .header__logo ._name {
   display: block;
   padding-bottom: 8px;
-  color: #333;
+  color: #222831;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .header__logo ._description {
-  color: #999;
+  color: #393e46;
 }
 
 header a {
   text-decoration: none;
-  color: #999;
+  color: #393e46;
 }
 
 header .container > div {
@@ -144,10 +123,7 @@ header .container > div {
 
 header nav a {
   padding: 0 18px;
-}
-
-header nav a.active {
-  color: #333;
+  color: #393e46;
 }
 
 blockquote {

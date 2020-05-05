@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
-import Disqus from "gatsby-plugin-disqus"
-
 import Layout from "../components/layout"
 
 const Template = ({ data, pageContext }) => {
@@ -41,8 +39,6 @@ const Template = ({ data, pageContext }) => {
             «&nbsp;{next.frontmatter.title}
           </Link>
         )}
-
-        <Disqus identifier={slug} title={title} />
       </div>
     </Layout>
   )

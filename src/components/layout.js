@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet"
 
 import Header from "./header/header"
 import "./normalize.css"
-import "./skeleton.css"
+//import "./skeleton.css"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -31,13 +31,7 @@ const Layout = ({ children }) => (
           <title>{title}</title>
         </Helmet>
         <Header author={author} description={description} />
-        <main>
-          <div className="container">
-            <div className="row">
-              <div className="column">{children}</div>
-            </div>
-          </div>
-        </main>
+        <main>{children}</main>
       </>
     )}
   />
