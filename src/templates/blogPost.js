@@ -13,7 +13,7 @@ const Template = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <div className="post">
+      <article>
         <h1>{title}</h1>
         <div className="date">{date}</div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
@@ -39,7 +39,7 @@ const Template = ({ data, pageContext }) => {
             «&nbsp;{next.frontmatter.title}
           </Link>
         )}
-      </div>
+      </article>
     </Layout>
   )
 }

@@ -1,7 +1,7 @@
 html,
 body {
   color: #222831;
-  font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -17,22 +17,22 @@ main {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 h2 {
-  font-size: 1.9rem;
-}
-h3 {
-  font-size: 1.8rem;
-}
-h4 {
-  font-size: 1.7rem;
-}
-h5 {
   font-size: 1.6rem;
 }
+h3 {
+  font-size: 1.4rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
 h6 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 pre,
@@ -45,6 +45,7 @@ ul,
 ol,
 form {
   margin-bottom: 1rem;
+  line-height: 1.6rem;
 }
 
 h1,
@@ -66,14 +67,20 @@ a:hover {
 }
 
 header {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .header__inner {
-  max-width: 1150px;
+  max-width: 960px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 650px) {
+  .header__inner {
+    flex-flow: column;
+  }
 }
 
 .header__logo {
@@ -89,7 +96,7 @@ header {
 }
 
 .header__logo a {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .header__logo ._name {
@@ -109,55 +116,41 @@ header a {
   color: #393e46;
 }
 
-header .container > div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-@media (max-width: 650px) {
-  header .container > div {
-    flex-flow: column;
-  }
-}
-
 header nav a {
   padding: 0 18px;
   color: #393e46;
 }
 
 blockquote {
-  color: #888;
+  color: #393e46;
   font-style: oblique;
 }
 
-.post h1 {
+article h1 {
   text-align: center;
 }
 
-.post .date {
-  font-size: 1.5rem;
+article .date {
   text-align: center;
-  margin-bottom: 1em;
-  color: #888;
+  color: #393e46;
 }
 
-.post .tags {
+article .tags {
   margin-left: 0;
 }
 
-.post .tags li {
+article .tags li {
   display: inline-block;
   background: #eee;
   padding: 5px 10px;
   margin-right: 10px;
 }
-.post .tags li:hover {
+article .tags li:hover {
   background: #ddd;
 }
 
-.post .tags a,
-.post .tags a:hover {
+article .tags a,
+article .tags a:hover {
   text-decoration: none;
   color: #999;
 }
