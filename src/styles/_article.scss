@@ -47,7 +47,14 @@
 
   &__next-prev {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 2rem;
+
+    ._next {
+      flex: 1;
+    }
+
+    ._prev {
+      flex: 1;
+    }
   }
 }

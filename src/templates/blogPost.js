@@ -30,14 +30,14 @@ const Template = ({ data, pageContext }) => {
         )}
 
         <div className="article__next-prev">
-          {prev && (
-            <Link to={prev.frontmatter.path}>
-              {prev.frontmatter.title}&nbsp;»
+          {next && (
+            <Link to={next.frontmatter.path} className="_next">
+              «&nbsp;{next.frontmatter.title}
             </Link>
           )}
-          {next && (
-            <Link to={next.frontmatter.path}>
-              «&nbsp;{next.frontmatter.title}
+          {prev && (
+            <Link to={prev.frontmatter.path} className="_prev">
+              {prev.frontmatter.title}&nbsp;»
             </Link>
           )}
         </div>

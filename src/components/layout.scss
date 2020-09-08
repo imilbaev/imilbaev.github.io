@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns:
     [full-start] 1fr [sidebar-start] 8rem
-    [sidebar-end content-start] minmax(min-content, 85rem)
+    [sidebar-end content-start] minmax(40rem, 85rem)
     [content-end] 8rem [layout-end] 1fr [full-end];
   grid-gap: 3rem;
   margin: 0 auto;
