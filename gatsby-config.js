@@ -52,6 +52,11 @@ module.exports = {
         trackingId: "UA-157024017-1",
       },
     },
-    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        includePaths: [`${__dirname}/src/styles`],
+      },
+    },
   ],
 }

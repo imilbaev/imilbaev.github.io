@@ -1,0 +1,44 @@
+@import "variables";
+
+.header {
+  padding-top: 3rem;
+
+  &__logo {
+    grid-column: sidebar-start / sidebar-end;
+    place-self: center;
+
+    img {
+      padding: 8px;
+      border-radius: 50%;
+    }
+  }
+
+  &__content {
+    grid-column: content-start / content-end;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+
+  &__name {
+    padding-bottom: 8px;
+    color: #222831;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  &__description {
+    color: $color-grey-dark-1;
+  }
+
+  &__nav {
+    a {
+      padding: 0 18px;
+      color: $color-grey-dark-1;
+      text-decoration: none;
+    }
+  }
+}

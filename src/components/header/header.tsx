@@ -1,37 +1,34 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 import LogoImg from "../../images/logo.png"
 import { Navigation } from "./navigation"
+import "./Header.scss"
 
-const Header = ({ author, description }) => {
+interface HeaderProps {
+  author: string
+  description: string
+}
+
+const Header: React.FC<HeaderProps> = ({ author, description }) => {
   return (
-    <header>
-      <div className="header__inner">
-        <div className="header__logo">
-          <Link to="/">
-            <img src={LogoImg} alt="Logo" />
+    <>
+      <Link to="/" className="header__logo">
+        <img src={LogoImg} alt="Logo" />
+      </Link>
+
+      <div className="header__content">
+        <div>
+          <Link to="/" className="header__name">
+            {author}
           </Link>
-          <div>
-            <Link to="/" className="_name">
-              {author}
-            </Link>
-            <div className="_description">{description}</div>
-          </div>
+          <div className="header__description">{description}</div>
         </div>
+
         <Navigation />
       </div>
-    </header>
+    </>
   )
-}
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
 }
 
 export default React.memo(Header)

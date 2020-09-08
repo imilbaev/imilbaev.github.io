@@ -1,0 +1,25 @@
+@import "variables";
+@import "typography";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-secondary;
+  font-weight: 300;
+  line-height: 1.6;
+  border-top: 6px solid $color-secondary;
+  background: $color-grey-light-1;
+  padding-top: 3rem;
+}
