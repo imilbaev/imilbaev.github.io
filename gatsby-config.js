@@ -52,5 +52,6 @@ module.exports = {
         trackingId: "UA-157024017-1",
       },
     },
+    `gatsby-plugin-sass`,
   ],
 }
