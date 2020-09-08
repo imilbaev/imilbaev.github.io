@@ -1,0 +1,46 @@
+@import "variables";
+
+.article {
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 1.6rem;
+  }
+
+  &__date {
+    text-align: center;
+    color: $color-grey-dark-3;
+  }
+
+  &__tags {
+    margin-bottom: 2rem;
+
+    li {
+      display: inline-block;
+      background: $color-grey-light-2;
+      padding: 5px 10px;
+      margin-right: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background: $color-primary-light;
+        outline: 1px $color-primary;
+
+        a {
+          color: #fff;
+        }
+      }
+
+      a {
+        color: $color-grey-dark-1;
+      }
+
+      a,
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import LogoImg from "../../images/logo.png"
-import { Navigation } from "./navigation"
+import { Navigation } from "./Navigation"
 import "./Header.scss"
 
 interface HeaderProps {

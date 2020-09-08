@@ -11,38 +11,5 @@
 
 .main {
   grid-column: content-start / content-end;
-}
-
-blockquote {
-  color: #393e46;
-  font-style: oblique;
-}
-
-article h1 {
-  text-align: center;
-}
-
-article .date {
-  text-align: center;
-  color: #393e46;
-}
-
-article .tags {
-  margin-left: 0;
-}
-
-article .tags li {
-  display: inline-block;
-  background: #eee;
-  padding: 5px 10px;
-  margin-right: 10px;
-}
-article .tags li:hover {
-  background: #ddd;
-}
-
-article .tags a,
-article .tags a:hover {
-  text-decoration: none;
-  color: #999;
+  font-size: 1.6rem;
 }

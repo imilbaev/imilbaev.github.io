@@ -2,9 +2,11 @@
 
 h1 {
   font-size: 4rem;
+  margin-bottom: 2rem;
 }
 h2 {
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 h3 {
   font-size: 2rem;
@@ -25,5 +27,19 @@ a {
 
 a.active,
 a:hover {
+  color: $color-primary-light;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "—";
+  margin: 0 0.5rem 0 0;
   color: $color-primary-light;
 }

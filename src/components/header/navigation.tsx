@@ -1,8 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "./Navigation.scss"
+
 export const Navigation = () => (
-  <nav className="header__nav">
+  <nav className="navigation">
     <Link to="/" activeClassName="active">
       Home
     </Link>

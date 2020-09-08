@@ -13,12 +13,12 @@ const Template = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <article>
+      <article className="article">
         <h1>{title}</h1>
-        <div className="date">{date}</div>
+        <div className="article__date">{date}</div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
         {tags.length && (
-          <ul className="tags">
+          <ul className="article__tags">
             {tags.map((tag, index) => {
               return (
                 <li key={index}>
