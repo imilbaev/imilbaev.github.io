@@ -6,7 +6,7 @@
     place-self: center;
 
     img {
-      padding: 8px;
+      padding: 1rem;
       border-radius: 50%;
     }
   }
@@ -21,8 +21,8 @@
   }
 
   &__name {
-    padding-bottom: 8px;
-    color: #222831;
+    padding-bottom: 1rem;
+    color: $color-secondary;
     font-weight: bold;
     font-size: 2rem;
     text-decoration: none;

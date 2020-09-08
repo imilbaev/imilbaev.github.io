@@ -1,3 +1,5 @@
+@import "variables";
+
 .container {
   display: grid;
   grid-template-columns:
@@ -11,5 +13,5 @@
 
 .main {
   grid-column: content-start / content-end;
-  font-size: 1.6rem;
+  font-size: $font-size-base;
 }
