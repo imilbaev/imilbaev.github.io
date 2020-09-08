@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 
 import Header from "./header/Header"
 import "../styles/base.scss"
-import "./layout.scss"
+import "./Layout.scss"
 
 const Layout = ({ children }) => (
   <StaticQuery

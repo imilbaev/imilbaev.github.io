@@ -1,11 +1,11 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 const Template = ({ data, pageContext }) => {
   const {
-    frontmatter: { title, date, tags, slug },
+    frontmatter: { title, date, tags },
     html,
   } = data.markdownRemark
 
@@ -22,23 +22,25 @@ const Template = ({ data, pageContext }) => {
             {tags.map((tag, index) => {
               return (
                 <li key={index}>
-                  <Link to={`tags/${tag}`}>{tag}</Link>
+                  <Link to={`/tags/${tag}`}>{tag}</Link>
                 </li>
               )
             })}
           </ul>
         )}
 
-        {prev && (
-          <Link to={prev.frontmatter.path}>
-            {prev.frontmatter.title}&nbsp;»
-          </Link>
-        )}
-        {next && (
-          <Link to={next.frontmatter.path}>
-            «&nbsp;{next.frontmatter.title}
-          </Link>
-        )}
+        <div className="article__next-prev">
+          {prev && (
+            <Link to={prev.frontmatter.path}>
+              {prev.frontmatter.title}&nbsp;»
+            </Link>
+          )}
+          {next && (
+            <Link to={next.frontmatter.path}>
+              «&nbsp;{next.frontmatter.title}
+            </Link>
+          )}
+        </div>
       </article>
     </Layout>
   )
@@ -50,7 +52,7 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date(formatString: "D MMMM YYYY")
+        date(formatString: "MMMM D, YYYY")
         tags
       }
     }

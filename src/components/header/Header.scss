@@ -1,8 +1,6 @@
 @import "variables";
 
 .header {
-  padding-top: 3rem;
-
   &__logo {
     grid-column: sidebar-start / sidebar-end;
     place-self: center;
@@ -14,12 +12,12 @@
   }
 
   &__content {
-    grid-column: content-start / content-end;
+    grid-column: content-start / layout-end;
     align-self: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: $font-size-base;
   }
 
   &__name {

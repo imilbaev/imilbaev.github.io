@@ -6,7 +6,7 @@
   }
 
   p {
-    margin-bottom: 1.6rem;
+    margin-bottom: $font-size-base;
   }
 
   &__date {
@@ -41,6 +41,16 @@
       a:hover {
         text-decoration: none;
       }
+
+      &::before {
+        content: "";
+      }
     }
+  }
+
+  &__next-prev {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
   }
 }
