@@ -12,6 +12,7 @@ h2 {
 }
 h3 {
   font-size: 2rem;
+  margin-bottom: 0.8rem;
 }
 h4 {
   font-size: 1.6rem;
@@ -32,8 +33,9 @@ a:hover {
   color: $color-primary-light;
 }
 
-p {
-  margin-bottom: 1rem;
+p,
+ul {
+  margin-bottom: 2rem;
 }
 
 ul {

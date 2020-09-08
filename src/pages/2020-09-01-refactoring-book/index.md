@@ -14,8 +14,8 @@ The best time for refactoring is just before you need to add a new feature to th
 
 Refactoring is always about making code "easier to understand and cheaper to modify". Rather than start refactoring by the plan you better should do refactoring as part of adding a feature or fixing a bug. Most of refactoring should happen while doing other things. Refactoring is not about adding future flexibility and currently unnecessary functionality(YAGNI), but about writing code that excellently solves current visible needs. The main reason for refactoring is economic benefits: refactor because it makes you faster—faster to add features, faster to fix bugs.
 
-Do refactoring when you are adding a new feature of fixing a bug.
-Do not refactor when you see a code mess but you don't need to modify it and when it’s easier to rewrite code than to refactor it.
+- Do refactoring when you are adding a new feature of fixing a bug.
+- Do not refactor when you see a code mess but you don't need to modify it and when it’s easier to rewrite code than to refactor it.
 
 Good software design is about modularity — the ability to make most modifications to a program while only having to understand a small part of it.
 
