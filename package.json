@@ -41,7 +41,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "deploy": "gatsby build && gh-pages -d public -b master",
