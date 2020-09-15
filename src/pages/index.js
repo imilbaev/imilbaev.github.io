@@ -3,7 +3,7 @@ import { StaticQuery, Link, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   return (
     <StaticQuery
       query={graphql`
