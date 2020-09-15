@@ -9,23 +9,22 @@
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "babel-plugin-remove-graphql-queries": "^2.9.18",
-    "gatsby": "^2.24.58",
-    "gatsby-image": "^2.4.17",
+    "gatsby": "^2.24.60",
+    "gatsby-image": "^2.4.18",
     "gatsby-plugin-disqus": "^1.2.2",
     "gatsby-plugin-fontawesome-css": "^1.0.0",
-    "gatsby-plugin-google-analytics": "^2.3.13",
-    "gatsby-plugin-manifest": "^2.4.28",
-    "gatsby-plugin-offline": "^3.2.27",
+    "gatsby-plugin-google-analytics": "^2.3.14",
+    "gatsby-plugin-manifest": "^2.4.29",
+    "gatsby-plugin-offline": "^3.2.28",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
-    "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-plugin-sharp": "^2.6.35",
-    "gatsby-remark-images": "^3.3.29",
-    "gatsby-remark-prismjs": "^3.5.12",
-    "gatsby-source-filesystem": "^2.3.29",
-    "gatsby-transformer-remark": "^2.8.34",
-    "gatsby-transformer-sharp": "^2.5.14",
+    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsby-plugin-sass": "^2.3.13",
+    "gatsby-plugin-sharp": "^2.6.36",
+    "gatsby-remark-images": "^3.3.30",
+    "gatsby-remark-prismjs": "^3.5.13",
+    "gatsby-source-filesystem": "^2.3.30",
+    "gatsby-transformer-remark": "^2.8.35",
+    "gatsby-transformer-sharp": "^2.5.15",
     "node-sass": "^4.14.1",
     "prismjs": "^1.21.0",
     "prop-types": "^15.7.2",
@@ -35,7 +34,6 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "npm-force-resolutions": "0.0.3",
     "prettier": "^1.19.1"
   },
   "keywords": [
@@ -56,8 +54,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/imilbaev/imilbaev.github.io"
-  },
-  "resolutions": {
-    "babel-plugin-remove-graphql-queries": "2.9.12"
   }
 }
