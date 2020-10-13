@@ -1,7 +1,7 @@
 ---
 title: Why I decided to start writing this blog
 description: Why I decided to start this blog
-date: "2019-01-01"
+date: "2020-05-01"
 path: "/blog-goals"
 tags: ["Misc"]
 ---
